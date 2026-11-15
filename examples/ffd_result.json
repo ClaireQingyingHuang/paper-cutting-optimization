@@ -1,0 +1,65 @@
+{
+  "method": "ffd",
+  "n_rolls": 9,
+  "n_patterns": 5,
+  "trim_loss": 800,
+  "trim_loss_rate": 0.08888888888888889,
+  "lower_bound": 9,
+  "rolls_above_lower_bound": 0,
+  "solve_time_seconds": 1.3457960449159145e-05,
+  "overproduction": {
+    "450": 0,
+    "350": 0,
+    "200": 0,
+    "100": 0
+  },
+  "patterns": [
+    {
+      "pieces": [
+        450,
+        450,
+        100
+      ],
+      "frequency": 4,
+      "trim_per_roll": 0
+    },
+    {
+      "pieces": [
+        350,
+        350,
+        200,
+        100
+      ],
+      "frequency": 1,
+      "trim_per_roll": 0
+    },
+    {
+      "pieces": [
+        350,
+        350,
+        200
+      ],
+      "frequency": 2,
+      "trim_per_roll": 100
+    },
+    {
+      "pieces": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "frequency": 1,
+      "trim_per_roll": 0
+    },
+    {
+      "pieces": [
+        200,
+        200
+      ],
+      "frequency": 1,
+      "trim_per_roll": 600
+    }
+  ]
+}
