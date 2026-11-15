@@ -2,7 +2,7 @@
 
 **Reducing paper-roll consumption while tracking the operational cost of cutting-pattern changes.**
 
-A Python research project by Claire Huang, developed from paper cutting-stock work during a Poi-Tech internship. The project compares greedy packing, column generation, and sequential heuristics for the **one-dimensional cutting stock problem**.
+This project compares greedy packing, column generation, and sequential heuristics for the **one-dimensional cutting stock problem**.
 
 Given a master-roll width and quantities of narrower products, the software constructs cutting patterns and reports roll usage, distinct pattern count, trim loss, and runtime. Pattern count is a proxy for setup complexity; the repository does not model a production sequence or measure actual factory savings.
 
