@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-cutting-optimization"
+version = "0.1.0"
+description = "Paper cutting-stock algorithms: material use and pattern-count tradeoffs"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Claire Huang"}]
+dependencies = []
+
+[project.optional-dependencies]
+research = ["numpy>=1.24,<3", "pulp>=2.7,<4"]
+gurobi = ["gurobipy>=10,<14"]
+legacy = ["numpy>=1.24,<3", "pandas>=2,<3", "openpyxl>=3.1,<4", "gurobipy>=10,<14"]
+
+[project.scripts]
+paper-cutting = "paper_cutting.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["paper_cutting*"]

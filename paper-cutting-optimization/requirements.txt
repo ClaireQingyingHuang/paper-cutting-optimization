@@ -1,0 +1,2 @@
+# No external dependencies needed for the default FFD CLI or core tests.
+# Optional research installation: python -m pip install -e '.[research,gurobi]'
